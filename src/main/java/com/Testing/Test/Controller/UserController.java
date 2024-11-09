@@ -8,6 +8,6 @@ public class UserController {
 	
 	 @GetMapping("/test")
 	    public String testEndpoint() {
-	        return "Test API is working Successfully!";
+	        return "Test Code is working Successfully!";
 	    }
 }
