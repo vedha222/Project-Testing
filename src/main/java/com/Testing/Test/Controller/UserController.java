@@ -23,6 +23,6 @@ public class UserController {
 	 
 	 @GetMapping("/test/list/data")
 	    public String getListData() {
-	        return "Hello, Welocome to Testing-Project";
+	        return "Welocome to Testing-Project";
 	    }
 }
