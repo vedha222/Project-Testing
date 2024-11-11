@@ -18,6 +18,6 @@ public class UserController {
 	 
 	 @GetMapping("/test/list")
 	    public String getList() {
-	        return "Test Code is  Working Successfully!";
+	        return "Test Code is  Working Completely!";
 	    }
 }
