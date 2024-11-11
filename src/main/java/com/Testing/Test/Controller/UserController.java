@@ -15,11 +15,11 @@ public class UserController {
 	    public String testEndpoint() {
 	        return "Test Code is  Successfully Completed!";
 	    }
-//	 
-//	 @GetMapping("/test/list")
-//	    public String getList() {
-//	        return "Test Code is  Working Completely!";
-//	    }
+	 
+	 @GetMapping("/test/list")
+	    public String getList() {
+	        return "Test Code is  Working Completely!";
+	    }
 //	 
 //	 @GetMapping("/test/list/data")
 //	    public String getListData() {
