@@ -17,7 +17,7 @@ public class UserController {
 	    }
 	 
 	 @GetMapping("/test/list")
-	    public String testEndpoints() {
+	    public String getList() {
 	        return "Test Code is  Working Successfully!";
 	    }
 }
