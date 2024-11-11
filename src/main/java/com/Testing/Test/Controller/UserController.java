@@ -28,7 +28,7 @@ public class UserController {
 	 
 	 @GetMapping("/test/list/all")
 	    public String getAllListData() {
-	        return " WELCOME TO THE PROJECT!!!";
+	        return "Successfully done";
 	    }
 
 }
