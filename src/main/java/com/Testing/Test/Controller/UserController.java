@@ -23,6 +23,12 @@ public class UserController {
 	 
 	 @GetMapping("/test/list/data")
 	    public String getListData() {
-	        return " WELCOME TO TEST-PROJECT!!!";
+	        return " WELCOME TO TESTINGPROJECT!!!";
 	    }
+	 
+	 @GetMapping("/test/list/all")
+	    public String getAllListData() {
+	        return " WELCOME TO THE PROJECT!!!";
+	    }
+
 }
